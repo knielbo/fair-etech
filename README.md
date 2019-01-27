@@ -10,6 +10,7 @@ Valid and scalable solutions to research questions for textual cultural heritage
 
 One of the greatest challenges for large scale DH research is access to original or direct data (e.g., the content of newspaper article) because of copyright restrictions. In Denmark, for instance, a newspaper article in the *Danish Mediastream* has to be more than a century old in order to allow a researcher free data mining access. Embeddings however have status as derived data that do not allow for a reconstruction of the original data source. Embeddings trained on large newspaper collections are more than adequate to solve problems related to semantic similarity and drift.
 
+## Level 1 Metadata: Data Citation ##
 ---
 **Publication date:**
 
@@ -48,7 +49,7 @@ You can cite all versions by using the DOI 00.0000/zenodo.0000000. This DOI repr
 @misc{nielbo_2019_0000002,  
   author    = {Nielbo,Gerdes and Møldrup-Dalum},  
   title     = {{FAIR Embeddings for Textual Cultural Heritage}},  
-  month     = dec,  
+  month     = jan,  
   year      = 2019,  
   doi       = {00.0000/zenodo.0000002},  
   url       = {https://doi.org/00.0000/zenodo.0000002}  
@@ -67,7 +68,15 @@ You can cite all versions by using the DOI 00.0000/zenodo.0000000. This DOI repr
 
 ---
 
-## Example of Use ##
+## Level 2 Metadata: Domain-specific requirements ##
+
+TODO
+
+## Level 3 metadata: Fine-level requirements ##
+
+TODO
+
+## Machine-accessible interface ##
 
 **Download pre-trained embeddings**
 
