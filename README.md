@@ -103,4 +103,7 @@ def load_vectors(filename):
         tokens = line.rstrip().split(' ')
         data[tokens[0]] = map(float, tokens[1:])
     return data
+
+vectors = load_vectors('dk-news-1919-2001-300d-1M.vec')
+
 ```
