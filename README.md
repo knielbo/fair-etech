@@ -70,11 +70,12 @@ You can cite all versions by using the DOI 00.0000/zenodo.0000000. This DOI repr
 
 ## Level 2 metadata: Domain-specific requirements ##
 
-[e.g., corpus specifications, OCR accuracy pr. decade, model specifications]
+Data file *dk-news-1919-2001-300d-1M* contains one million word vectors trained on Danish newspapers in *MedieStream* from 1919 to 2001. Every word is embedded in a
+300 dimensional space. The first line of the file contains the number of words in the vocabulary and the size of the vectors. Each line contains a word followed by its vectors. Each value is space separated. Words are ordered by descending frequency.
 
 ## Level 3 metadata: Fine-level requirements ##
 
-TODO
+[e.g., corpus specifications, OCR accuracy pr. decade, model specifications]
 
 ## Machine-accessible interface ##
 
@@ -90,6 +91,8 @@ cd fair-etech
 
 
 **Load text models in Python**
+
+The text models can easily be loaded in Python using the following code:
 
 ```py
 
