@@ -45,14 +45,13 @@ You can cite all versions by using the DOI 00.0000/zenodo.0000000. This DOI repr
 **Cite as**
 
 
-@misc{nielbo_2019_0000002,
-  author    = {Nielbo,Gerdes and Møldrup-Dalum},
-  title     = {{FAIR Embeddings for Textual Cultural Heritage}},
-  month     = dec,
-  year      = 2019,
-  url       = {2019},
-  doi       = {00.0000/zenodo.0000002},
-  url       = {https://doi.org/00.0000/zenodo.0000002}
+@misc{nielbo_2019_0000002,  
+  author    = {Nielbo,Gerdes and Møldrup-Dalum},  
+  title     = {{FAIR Embeddings for Textual Cultural Heritage}},  
+  month     = dec,  
+  year      = 2019,  
+  doi       = {00.0000/zenodo.0000002},  
+  url       = {https://doi.org/00.0000/zenodo.0000002}  
 }
 
 ---
