@@ -17,34 +17,36 @@ One of the greatest challenges for large scale DH research is access to original
 ---
 **Versions**
 
+**Cite all versions?**
 
-**Cite all version?**
 ---
 
 ---
 **Share**
 
 **Cite as**
+
 ---
 
 ---
 **Export**
+
 ---
 
 ## Example of Use ##
 
-### Download pre-trained embeddings ###
+**Download pre-trained embeddings**
 
 ```bash
 
 git clone https://github.com/knielbo/fair-etech.git
+unzip fair-etech.zip
 cd fair-etech
  
-
 ```
 
 
-### Load text models in Python ###
+**Load text models in Python**
 
 ```py
 
