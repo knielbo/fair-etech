@@ -1,6 +1,6 @@
 
 <p align="center">
-  <b><font color="red">This is a mockup site for a future project</font></b><br>
+  <b>xxxxx This is a mockup site, data and links are empty xxxxx</b><br>
   <br><br>
 </p>
 
