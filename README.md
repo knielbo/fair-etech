@@ -1,6 +1,6 @@
 
 <p align="center">
-  <b>This is a mockup site for a future project</b><br>
+  <b><font color="red">This is a mockup site for a future project</font></b><br>
   <br><br>
 </p>
 
@@ -21,8 +21,8 @@ January 28, 2019
 
 **License (for files)**
 [Creative Commons Attribution 4.0 International](http://creativecommons.org/licenses/by/4.0/legalcode)
----
 
+---
 
 ---
 **Versions**
@@ -54,6 +54,7 @@ You can cite all versions by using the DOI 00.0000/zenodo.0000000. This DOI repr
   doi       = {00.0000/zenodo.0000002},
   url       = {https://doi.org/00.0000/zenodo.0000002}
 }
+
 ---
 
 
