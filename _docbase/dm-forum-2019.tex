@@ -1,0 +1,71 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm,headheight=15pt]{geometry}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[table]{xcolor}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage{caption}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+\usepackage{comment}
+
+\title{\emph{FAIR Embeddings for Textual Cultural Heritage}\\Work package under Nordic Digital Humanities Laboratory}%$\mid$NDHL}
+\author{K.L. Nielbo}
+%\date{}
+\lhead{NDHL: FAIR Embeddings}
+\rhead{Project Description}
+\cfoot{\thepage}
+
+\begin{document}
+
+\section*{Aktivitetens navn}
+\emph{FAIR Embeddings for Textual Cultural Heritage} (FAIR eTeCH)
+
+\section*{Aktivitetens start-slut}
+March 1, 2019 - March 1, 2020.
+\section*{Aktivitetens leder}
+Anne-Marie Pahuus \& Kristoffer L Nielbo
+\section*{Konsortium}
+\begin{itemize}
+	\item[-] Aarhus University's Center for Humanities Computing Aarhus
+	\item[-] Danish Royal Library
+	\item[-] University of Southern Denmark
+\end{itemize}
+
+FAIR eTeCH participates in the Scandinavian collaboration \emph{Nordic Digital Humanities Laboratory}, which has similar activities in Sweden, Finland and Norway.
+
+\section*{Aktivitetens scope}
+%Hvad går aktiviteten ud på og hvem er aftagere af leverancerne? Hvor er værdien?
+Valid and scalable solutions to research questions for textual cultural heritage (TeCH) data will increasingly depend on access to so-called neural embeddings. Neural embeddings are abstract and distributed dense representations of language (characters, words, phrases) that are learned by data-intensive representation-learning algorithms implemented as deep neural network architecture. To ensure that DH researchers uses state-of-the-art technology for tackling complex TeCH problems, it is mandatory that they have access to pre-trained multi-level embeddings for their respective language, which follow the FAIR principles (findable, accessible, interoperable, and resuable). \emph{FAIR Embeddings for Textual Cultural Heritage} (FAIR eTeCH) will pioneer FAIR embeddings for Scandinavian languages, which through a collaboration with national libraries and an innovative use of regulations pertaining to derived data can circumvent restriction on copyrighted and sensitive data.
+
+One of the greatest challenges for large scale DH research is access to original or direct data (e.g., the content of newspaper article) because of copyright restrictions. In Denmark, for instance, a newspaper article in the Danish \textit{MedieStream} has to be more than a century old in order to allow a researcher free data mining access. Embeddings however have status as derived data\footnote{The OECD Glossary of Statistical Terms defines a `derived data element' as: A derived data element is a data element derived from other data elements using a mathematical, logical, or other type of transformation, e.g. arithmetic formula, composition, aggregation.} that does not allow for a reconstruction of the original data source. Embeddings trained on large newspaper collections are more than adequate to solve problems related to semantic similarity and drift.
+
+FAIR Danish Royal Library's current eScience infrastructure, the Cultural Heritage Cluster, does not contain GPU nodes necessary for deep learning and \textit{Lamda} offers a robust solution for piloting at a competitive price. In time NDHL will release embeddings for all Scandinavian languages hosted through national HPC service providers as part of the NDHL virtual laboratory.
+
+\section*{Must-have leverancer}
+%Hvad leveres konkret? Hvornår er en leverance en succes? 
+1. Acquisition of server and tests.\\
+2. Implementation of pipeline.\\
+3. Model training of neural embeddings for character, word and sentence-levels.\\
+4. Release of neural embeddings and code/pipeline repository with associated DOIs through Zenodo.\\  
+\section*{Nice-to-have leverancer}
+Joint access to the server for all members of NDHL in order to ensure FAIR embeddings for all Scandinavian languages.
+
+\section*{Økonomi}
+%Samlet antal timer + gerne løseligt fordelt på leverancer.
+0. Hardware: Lambda Blade Server Premium m. Lambda Stack: 300.000 Dkr
+1. Server acquisition: 100 hrs
+2. Pipeline: 250 hrs
+3. Model training: 250 hrs.
+4. Release: 100 hrs.
+
+\section*{Tidspunkt for leveranceplan}
+%Tidspunkt hvor der ligger der en plan for must-have leverancerne.
+Ultimo March 2019
+
+\end{document}
