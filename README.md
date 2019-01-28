@@ -4,6 +4,7 @@
   <br><br>
 </p>
 
+
 # FAIR Embeddings for Textual Cultural Heritage #
 
 Valid and scalable solutions to research questions for textual cultural heritage (TeCH) data depend on access to contextualized embeddings. Word embeddings are abstract and distributed dense representations of language (characters, words, phrases) that are learned by data-intensive representation-learning algorithms implemented as deep neural network architecture. To ensure that DH researchers uses state-of-the-art technology for tackling complex TeCH problems, it is mandatory that they have access to pre-trained multi-level embeddings for their respective language, which follow the FAIR principles (findable, accessible, interoperable, and resuable). FAIR Embeddings for Textual Cultural Heritage (FAIR eTeCH) will pioneer FAIR embeddings for Scandinavian languages, which through a collaboration with national libraries and an innovative use of regulations pertaining to derived data can circumvent restriction on copyrighted and sensitive data.
@@ -43,14 +44,14 @@ You can cite all versions by using the DOI 00.0000/zenodo.0000000. This DOI repr
 ---
 **Share**
 
-[LINKS HERE for export to SOME]
+[!LINKS HERE for export to SOME!]
 
 **Cite as**
 
 
 @misc{nielbo_2019_0000002,  
   author    = {Nielbo,Gerdes and Møldrup-Dalum},  
-  title     = {{FAIR Embeddings for Textual Cultural Heritage}},  
+  title     = {{FAIR Embeddings for Textual Cultural Heritage v2 [dataset]}},  
   month     = jan,  
   year      = 2019,  
   doi       = {00.0000/zenodo.0000002},  
@@ -75,9 +76,11 @@ You can cite all versions by using the DOI 00.0000/zenodo.0000000. This DOI repr
 Data file *dk-news-1919-2001-300d-1M* contains one million word vectors trained on Danish newspapers in *MedieStream* from 1919 to 2001. Every word is embedded in a
 300 dimensional space. The first line of the file contains the number of words in the vocabulary and the size of the vectors. Each line contains a word followed by its vectors. Each value is space separated. Words are ordered by descending frequency.
 
+[!standards for level 2 & 3 are developed by the Nordic Digital Humanities Laboratory in order to facilitate interoperability and reusability in the Nordic region!]
+
 ## Level 3 metadata: Fine-level requirements ##
 
-[e.g., fine-grained corpus specifications, model specifications, OCR accuracy pr. decade]
+[!e.g., fine-grained corpus specifications, model specifications, OCR accuracy pr. decade!]
 
 ## Machine-accessible interface ##
 
