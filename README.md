@@ -10,7 +10,9 @@ Valid and scalable solutions to research questions for textual cultural heritage
 
 One of the greatest challenges for large scale DH research is access to original or direct data (e.g., the content of newspaper article) because of copyright restrictions. In Denmark, for instance, a newspaper article in the *Danish Mediestream* has to be more than a century old in order to allow a researcher free data mining access. Embeddings however have status as derived data that do not allow for a reconstruction of the original data source. Embeddings trained on large newspaper collections are more than adequate to solve problems related to semantic similarity and drift.
 
-## Level 1 metadata: Data Citation ##
+# Metadata #
+
+## Level 1 metadata: Data citation ##
 ---
 **Publication date:**
 
@@ -75,7 +77,7 @@ Data file *dk-news-1919-2001-300d-1M* contains one million word vectors trained 
 
 ## Level 3 metadata: Fine-level requirements ##
 
-[e.g., corpus specifications, OCR accuracy pr. decade, model specifications]
+[e.g., fine-grained corpus specifications, model specifications, OCR accuracy pr. decade]
 
 ## Machine-accessible interface ##
 
